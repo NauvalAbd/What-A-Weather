@@ -45,7 +45,6 @@ struct MainScreenView_New: View {
                     self.isLoading = false
                 }
                 locationString = locationManager.locationString
-                print(locationString)
                 Task.detached {
                     if let currentLocation = await locationManager.location {
                         let weatherData = await weatherServiceHelper.currentWeather(for: CLLocation(latitude: currentLocation.latitude, longitude: currentLocation.longitude))

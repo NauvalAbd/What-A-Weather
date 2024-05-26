@@ -150,6 +150,7 @@
 				99C467A12C0397990064D320 /* Font */,
 				6AFA4E042BF890BF00E5C116 /* What-A-Weather-Watch-App-Info.plist */,
 				6A5B2C2F2BF76463000F9BCE /* What_A_WeatherApp.swift */,
+				99C467AA2C03AA3D0064D320 /* Archieved */,
 				6A62F9EA2BFDD1C100AF9FAB /* Data */,
 				6A62F9E92BFDD19B00AF9FAB /* View */,
 				6A5B2C332BF76463000F9BCE /* Assets.xcassets */,
@@ -187,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				99C467AB2C03AA850064D320 /* Components */,
-				99C467AA2C03AA3D0064D320 /* Archieved */,
 				6A62F9E72BFDD18900AF9FAB /* MainScreenView_New.swift */,
 				6A5B2C312BF76463000F9BCE /* ContentView.swift */,
 				99C467A82C0398620064D320 /* WeatherView.swift */,

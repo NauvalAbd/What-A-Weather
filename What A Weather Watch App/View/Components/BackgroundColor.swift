@@ -9,26 +9,29 @@ import SwiftUI
 import WeatherKit
 
 struct CustomLinearGradient: View {
-    @Binding var weatherData: CurrentWeather?
+    @Binding var temperature: Double
+    @Binding var condition: WeatherCondition
     
     var gradientColors: [Color] {
-        if let curr = weatherData {
-            switch curr.temperature.value {
-            case ...26:
-                return [Color.wawPinkLight, Color.wawPinkDark]
-            case 27...28:
-                return [Color.wawPurple, Color.wawPurpleOff]
-            case 29...30:
-                return [Color.wawCyanLight, Color.wawCyanDark]
-            case 31...33:
-                return [Color.wawLimeLight, Color.wawLime]
-            case 34...:
-                return [Color.wawOrangeLight, Color.wawOrangeDark]
-            default:
-                return [Color.wawCyanLight, Color.wawCyanDark] // Default gradient
-            }
+        if rainConditions.contains([condition]) {
+            print("true")
+            return [Color.wawGreyDarker, Color.wawGreyDark]
         }
-        return [Color.wawCyanLight, Color.wawCyanDark] // Default gradient
+        
+        switch temperature {
+        case ...26:
+            return [Color.wawPinkLight, Color.wawPinkDark]
+        case 27...28:
+            return [Color.wawPurple, Color.wawPurpleOff]
+        case 29...30:
+            return [Color.wawCyanLight, Color.wawCyanDark]
+        case 31...33:
+            return [Color.wawLimeLight, Color.wawLime]
+        case 34...:
+            return [Color.wawOrangeLight, Color.wawOrangeDark]
+        default:
+            return [Color.wawCyanLight, Color.wawCyanDark] // Default gradient
+        }
     }
     
     var body: some View {

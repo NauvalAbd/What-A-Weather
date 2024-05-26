@@ -16,43 +16,61 @@ struct WeatherView: View {
     @Binding var weatherData : CurrentWeather?
     @Binding var locationString : String?
     
+    @State var conditionDescription : WeatherCondition = .clear
+    @State var temperatureValue : Double = 0.0
+    @State var uvIndexValue : Int = 0
+    @State var uvIndexCat : UVIndex.ExposureCategory = .low
+    @State var precipitationIntensity : Double = 0.0
+    
     var body: some View {
         ZStack{
-            CustomLinearGradient(weatherData: $weatherData)
+            CustomLinearGradient(temperature: $temperatureValue, condition: $conditionDescription)
             
             ClockRadial(
                 dragAmount: $dragAmount,
                 offset: $offset,
                 initialOffset: $initialOffset)
             
-            WeatherDataView(
-                weatherData: $weatherData,
-                locationString: $locationString)
+            WeatherDataView(locationString: $locationString, conditionDescription: $conditionDescription, temperatureValue: $temperatureValue, uvIndexValue: $uvIndexValue, uvIndexCat: $uvIndexCat, precipitationIntensity: $precipitationIntensity)
             
+        }
+        .onChange(of: weatherData) {
+            if let currWeather = weatherData {
+                conditionDescription = currWeather.condition
+                temperatureValue = currWeather.temperature.value
+                uvIndexValue = currWeather.uvIndex.value
+                uvIndexCat = currWeather.uvIndex.category
+                precipitationIntensity = currWeather.precipitationIntensity.value
+            }
         }
     }
 }
 
-struct UVIndex {
-    var value: Int
-    var category: UVCategory
-    
-    enum UVCategory: String {
-        case low = "Low"
-        case moderate = "Moderate"
-        case high = "High"
-    }
-}
-
 struct ExampleWeatherView: View {
-    @State private var currentWeather: CurrentWeather?
-    @State private var locationString: String? = "San Francisco"
+    @State private var dragAmount = CGSize.zero
+    @State private var offset = 0.0
+    @State private var initialOffset = 0.0
+    
+//    Coba ganti2 ini
+    @State private var temperatureValue = 40.0
+    @State private var conditionDescription : WeatherCondition = .rain
+    
+    @State private var locationString : String? = "Grogol"
+    @State private var uvIndexValue = 5
+    @State private var uvIndexCat = UVIndex.ExposureCategory.low
+    @State private var precipitationIntensity = 0.0
     
     var body: some View {
-        WeatherView(
-            weatherData: $currentWeather,
-            locationString: $locationString
-        )
+        ZStack{
+            CustomLinearGradient(temperature: $temperatureValue, condition: $conditionDescription)
+            
+            ClockRadial(
+                dragAmount: $dragAmount,
+                offset: $offset,
+                initialOffset: $initialOffset)
+            
+            WeatherDataView(locationString: $locationString, conditionDescription: $conditionDescription, temperatureValue: $temperatureValue, uvIndexValue: $uvIndexValue, uvIndexCat: $uvIndexCat, precipitationIntensity: $precipitationIntensity)
+        }
     }
 }
 
