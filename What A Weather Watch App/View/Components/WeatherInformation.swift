@@ -33,7 +33,7 @@ struct WeatherDataView: View {
         if let currWeather = weatherData {
             let fore = foregroundColors(forTemperature: currWeather.temperature.value)
             let conditionDescription = currWeather.condition.description
-            let temperatureValue = currWeather.temperature.value
+            let temperature = currWeather.temperature
             let uvIndex = currWeather.uvIndex
             let precipitationIntensity = currWeather.precipitationIntensity
             
@@ -45,7 +45,7 @@ struct WeatherDataView: View {
                             .foregroundColor(fore.dark)
                             .padding(.trailing, 30)
                         
-                        Text("\(Int(temperatureValue))°")
+                        Text("\(Int(temperature.value))°")
                             .font(.custom("Groovy Dream", size: 110))
                             .foregroundColor(fore.light)
                     }
@@ -73,7 +73,7 @@ struct WeatherDataView: View {
                             Image ("UmbrellaOrange")
                                 .padding(.top, 10)
                             
-                            Text("\(precipitationIntensity)%")
+                            Text("\(Int(precipitationIntensity.value))%")
                                 .font(.custom("LilitaOne", size: 15))
                                 .foregroundColor(fore.dark)
                                 .offset(y: -10)
@@ -86,7 +86,7 @@ struct WeatherDataView: View {
                 }.frame(width: 200, height:150, alignment: .top)
                 Spacer()
                 
-                Text("\(String(describing: locationString ?? "_"))")
+                Text("\(String(describing: locationString ?? "-"))")
                     .font(
                         Font.custom("Quicksand", size: 14)
                             .weight(.bold)
@@ -102,6 +102,7 @@ struct WeatherDataView: View {
             }
             .task {
                 print("Curr : ", currWeather)
+                print("Location : ", locationString ?? "kosong")
             }
         }
         

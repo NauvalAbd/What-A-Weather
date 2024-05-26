@@ -71,7 +71,7 @@ struct ClockRadial: View {
                         let tempOffset = Double(value.translation.width / 100)
                         // Update the offset with the temporary offset
                         self.offset = self.initialOffset + tempOffset
-                        print("INI ONCHANGE \(offset)")
+//                        print("INI ONCHANGE \(offset)")
                     }
                     .onEnded { value in
                         // When the drag ends, update the initial offset
@@ -79,7 +79,7 @@ struct ClockRadial: View {
                         self.initialOffset += tempOffset
                         // Set the current drag amount to zero for the next drag
                         self.dragAmount = .zero
-                        print("INI ONENDED \(offset)")
+//                        print("INI ONENDED \(offset)")
                     }
             )
         }

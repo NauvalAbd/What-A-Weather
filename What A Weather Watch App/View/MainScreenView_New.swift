@@ -18,6 +18,7 @@ struct MainScreenView_New: View {
     @State var modalFlag = false
     @State var isLoading = true
     @State var currentLocation: CLLocation?
+    @State var locationString : String?
     
     @State var stateText: String = "Loading.."
     @State var currentWeather: CurrentWeather?
@@ -29,7 +30,7 @@ struct MainScreenView_New: View {
         ZStack{
             WeatherView(
                 weatherData: $currentWeather,
-                locationString: $locationManager.locationString
+                locationString: $locationString
             )
         }
         .task {
@@ -43,7 +44,8 @@ struct MainScreenView_New: View {
                 DispatchQueue.main.async { [self] in
                     self.isLoading = false
                 }
-                print (locationManager.location)
+                locationString = locationManager.locationString
+                print(locationString)
                 Task.detached {
                     if let currentLocation = await locationManager.location {
                         let weatherData = await weatherServiceHelper.currentWeather(for: CLLocation(latitude: currentLocation.latitude, longitude: currentLocation.longitude))
