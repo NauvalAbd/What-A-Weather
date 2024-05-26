@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A0536612BF8A83100B83FE1 /* Quicksand Light 300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A05365D2BF8A83000B83FE1 /* Quicksand Light 300.ttf */; };
-		6A0536622BF8A83100B83FE1 /* Quicksand Bold 700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A05365E2BF8A83100B83FE1 /* Quicksand Bold 700.ttf */; };
-		6A0536632BF8A83100B83FE1 /* Quicksand Medium 500.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A05365F2BF8A83100B83FE1 /* Quicksand Medium 500.ttf */; };
-		6A0536642BF8A83100B83FE1 /* Quicksand Regular 400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A0536602BF8A83100B83FE1 /* Quicksand Regular 400.ttf */; };
-		6A0536662BF8C2B400B83FE1 /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A0536652BF8C2B400B83FE1 /* LilitaOne-Regular.ttf */; };
 		6A5B2C2B2BF76463000F9BCE /* What A Weather Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6A5B2C2A2BF76463000F9BCE /* What A Weather Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6A5B2C302BF76463000F9BCE /* What_A_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2C2F2BF76463000F9BCE /* What_A_WeatherApp.swift */; };
 		6A5B2C322BF76463000F9BCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2C312BF76463000F9BCE /* ContentView.swift */; };
@@ -25,14 +20,14 @@
 		6AABD9AD2BFB1BFE00DFA5B8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AABD9AC2BFB1BFE00DFA5B8 /* LocationManager.swift */; };
 		6AABD9AF2BFB1C0900DFA5B8 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AABD9AE2BFB1C0900DFA5B8 /* WeatherData.swift */; };
 		6AFA4E062BF894CE00E5C116 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA4E052BF894CE00E5C116 /* MainScreen.swift */; };
-		6AFA4E092BF8986600E5C116 /* Groovy Dream.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4E082BF8986600E5C116 /* Groovy Dream.ttf */; };
-		6AFA4E132BF8A43C00E5C116 /* Quicksand_Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4E0C2BF8A43C00E5C116 /* Quicksand_Book.otf */; };
-		6AFA4E142BF8A43C00E5C116 /* Quicksand_Book_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4E0D2BF8A43C00E5C116 /* Quicksand_Book_Oblique.otf */; };
-		6AFA4E152BF8A43C00E5C116 /* Quicksand_Bold_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4E0E2BF8A43C00E5C116 /* Quicksand_Bold_Oblique.otf */; };
-		6AFA4E162BF8A43C00E5C116 /* Quicksand_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4E0F2BF8A43C00E5C116 /* Quicksand_Bold.otf */; };
-		6AFA4E172BF8A43C00E5C116 /* Quicksand_Dash.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4E102BF8A43C00E5C116 /* Quicksand_Dash.otf */; };
-		6AFA4E182BF8A43C00E5C116 /* Quicksand_Light_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4E112BF8A43C00E5C116 /* Quicksand_Light_Oblique.otf */; };
-		6AFA4E192BF8A43C00E5C116 /* Quicksand_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4E122BF8A43C00E5C116 /* Quicksand_Light.otf */; };
+		99C467A52C0397990064D320 /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99C467A22C0397990064D320 /* LilitaOne-Regular.ttf */; };
+		99C467A62C0397990064D320 /* Groovy Dream.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99C467A32C0397990064D320 /* Groovy Dream.ttf */; };
+		99C467A72C0397990064D320 /* Quicksand_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 99C467A42C0397990064D320 /* Quicksand_Bold.otf */; };
+		99C467A92C0398620064D320 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C467A82C0398620064D320 /* WeatherView.swift */; };
+		99C467AD2C03AA960064D320 /* RadialClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C467AC2C03AA960064D320 /* RadialClock.swift */; };
+		99C467AF2C03AAEB0064D320 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C467AE2C03AAEB0064D320 /* BackgroundColor.swift */; };
+		99C467B12C03AB230064D320 /* WeatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C467B02C03AB230064D320 /* WeatherInformation.swift */; };
+		99C467B32C03ABA20064D320 /* MainScreenView_Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C467B22C03ABA20064D320 /* MainScreenView_Copy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,11 +69,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6A05365D2BF8A83000B83FE1 /* Quicksand Light 300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand Light 300.ttf"; path = "../../../../Downloads/Quicksand_Font_Family_(Fontmirror)/Quicksand Light 300.ttf"; sourceTree = "<group>"; };
-		6A05365E2BF8A83100B83FE1 /* Quicksand Bold 700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand Bold 700.ttf"; path = "../../../../Downloads/Quicksand_Font_Family_(Fontmirror)/Quicksand Bold 700.ttf"; sourceTree = "<group>"; };
-		6A05365F2BF8A83100B83FE1 /* Quicksand Medium 500.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand Medium 500.ttf"; path = "../../../../Downloads/Quicksand_Font_Family_(Fontmirror)/Quicksand Medium 500.ttf"; sourceTree = "<group>"; };
-		6A0536602BF8A83100B83FE1 /* Quicksand Regular 400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand Regular 400.ttf"; path = "../../../../Downloads/Quicksand_Font_Family_(Fontmirror)/Quicksand Regular 400.ttf"; sourceTree = "<group>"; };
-		6A0536652BF8C2B400B83FE1 /* LilitaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LilitaOne-Regular.ttf"; path = "../../../../Documents/Reffrence/FONT/Lilita_One/LilitaOne-Regular.ttf"; sourceTree = "<group>"; };
 		6A5B2C242BF76463000F9BCE /* What A Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What A Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5B2C2A2BF76463000F9BCE /* What A Weather Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What A Weather Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5B2C2F2BF76463000F9BCE /* What_A_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_A_WeatherApp.swift; sourceTree = "<group>"; };
@@ -97,14 +87,14 @@
 		6AABD9B02BFB1E1A00DFA5B8 /* What A Weather Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "What A Weather Watch App.entitlements"; sourceTree = "<group>"; };
 		6AFA4E042BF890BF00E5C116 /* What-A-Weather-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "What-A-Weather-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		6AFA4E052BF894CE00E5C116 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
-		6AFA4E082BF8986600E5C116 /* Groovy Dream.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Groovy Dream.ttf"; path = "../../../../Documents/Reffrence/FONT/Groovy Dream Font/TTF/Groovy Dream.ttf"; sourceTree = "<group>"; };
-		6AFA4E0C2BF8A43C00E5C116 /* Quicksand_Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Book.otf; path = ../../../../Documents/Reffrence/FONT/quicksand/Quicksand_Book.otf; sourceTree = "<group>"; };
-		6AFA4E0D2BF8A43C00E5C116 /* Quicksand_Book_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Book_Oblique.otf; path = ../../../../Documents/Reffrence/FONT/quicksand/Quicksand_Book_Oblique.otf; sourceTree = "<group>"; };
-		6AFA4E0E2BF8A43C00E5C116 /* Quicksand_Bold_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Bold_Oblique.otf; path = ../../../../Documents/Reffrence/FONT/quicksand/Quicksand_Bold_Oblique.otf; sourceTree = "<group>"; };
-		6AFA4E0F2BF8A43C00E5C116 /* Quicksand_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Bold.otf; path = ../../../../Documents/Reffrence/FONT/quicksand/Quicksand_Bold.otf; sourceTree = "<group>"; };
-		6AFA4E102BF8A43C00E5C116 /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Dash.otf; path = ../../../../Documents/Reffrence/FONT/quicksand/Quicksand_Dash.otf; sourceTree = "<group>"; };
-		6AFA4E112BF8A43C00E5C116 /* Quicksand_Light_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Light_Oblique.otf; path = ../../../../Documents/Reffrence/FONT/quicksand/Quicksand_Light_Oblique.otf; sourceTree = "<group>"; };
-		6AFA4E122BF8A43C00E5C116 /* Quicksand_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Light.otf; path = ../../../../Documents/Reffrence/FONT/quicksand/Quicksand_Light.otf; sourceTree = "<group>"; };
+		99C467A22C0397990064D320 /* LilitaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LilitaOne-Regular.ttf"; sourceTree = "<group>"; };
+		99C467A32C0397990064D320 /* Groovy Dream.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Groovy Dream.ttf"; sourceTree = "<group>"; };
+		99C467A42C0397990064D320 /* Quicksand_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Bold.otf; sourceTree = "<group>"; };
+		99C467A82C0398620064D320 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		99C467AC2C03AA960064D320 /* RadialClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialClock.swift; sourceTree = "<group>"; };
+		99C467AE2C03AAEB0064D320 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
+		99C467B02C03AB230064D320 /* WeatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformation.swift; sourceTree = "<group>"; };
+		99C467B22C03ABA20064D320 /* MainScreenView_Copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView_Copy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				6AABD9B02BFB1E1A00DFA5B8 /* What A Weather Watch App.entitlements */,
-				6AFA4E072BF8983B00E5C116 /* Font */,
+				99C467A12C0397990064D320 /* Font */,
 				6AFA4E042BF890BF00E5C116 /* What-A-Weather-Watch-App-Info.plist */,
 				6A5B2C2F2BF76463000F9BCE /* What_A_WeatherApp.swift */,
 				6A62F9EA2BFDD1C100AF9FAB /* Data */,
@@ -196,10 +186,11 @@
 		6A62F9E92BFDD19B00AF9FAB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				99C467AB2C03AA850064D320 /* Components */,
+				99C467AA2C03AA3D0064D320 /* Archieved */,
 				6A62F9E72BFDD18900AF9FAB /* MainScreenView_New.swift */,
-				6AFA4E052BF894CE00E5C116 /* MainScreen.swift */,
-				6A62F9EB2BFDEC3C00AF9FAB /* RadialLayout.swift */,
 				6A5B2C312BF76463000F9BCE /* ContentView.swift */,
+				99C467A82C0398620064D320 /* WeatherView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -213,24 +204,34 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		6AFA4E072BF8983B00E5C116 /* Font */ = {
+		99C467A12C0397990064D320 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				6A0536652BF8C2B400B83FE1 /* LilitaOne-Regular.ttf */,
-				6A05365E2BF8A83100B83FE1 /* Quicksand Bold 700.ttf */,
-				6A05365D2BF8A83000B83FE1 /* Quicksand Light 300.ttf */,
-				6A05365F2BF8A83100B83FE1 /* Quicksand Medium 500.ttf */,
-				6A0536602BF8A83100B83FE1 /* Quicksand Regular 400.ttf */,
-				6AFA4E0E2BF8A43C00E5C116 /* Quicksand_Bold_Oblique.otf */,
-				6AFA4E0F2BF8A43C00E5C116 /* Quicksand_Bold.otf */,
-				6AFA4E0D2BF8A43C00E5C116 /* Quicksand_Book_Oblique.otf */,
-				6AFA4E0C2BF8A43C00E5C116 /* Quicksand_Book.otf */,
-				6AFA4E102BF8A43C00E5C116 /* Quicksand_Dash.otf */,
-				6AFA4E112BF8A43C00E5C116 /* Quicksand_Light_Oblique.otf */,
-				6AFA4E122BF8A43C00E5C116 /* Quicksand_Light.otf */,
-				6AFA4E082BF8986600E5C116 /* Groovy Dream.ttf */,
+				99C467A22C0397990064D320 /* LilitaOne-Regular.ttf */,
+				99C467A32C0397990064D320 /* Groovy Dream.ttf */,
+				99C467A42C0397990064D320 /* Quicksand_Bold.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		99C467AA2C03AA3D0064D320 /* Archieved */ = {
+			isa = PBXGroup;
+			children = (
+				6AFA4E052BF894CE00E5C116 /* MainScreen.swift */,
+				6A62F9EB2BFDEC3C00AF9FAB /* RadialLayout.swift */,
+				99C467B22C03ABA20064D320 /* MainScreenView_Copy.swift */,
+			);
+			path = Archieved;
+			sourceTree = "<group>";
+		};
+		99C467AB2C03AA850064D320 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				99C467AC2C03AA960064D320 /* RadialClock.swift */,
+				99C467AE2C03AAEB0064D320 /* BackgroundColor.swift */,
+				99C467B02C03AB230064D320 /* WeatherInformation.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,20 +367,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A5B2C372BF76463000F9BCE /* Preview Assets.xcassets in Resources */,
-				6A0536622BF8A83100B83FE1 /* Quicksand Bold 700.ttf in Resources */,
-				6AFA4E142BF8A43C00E5C116 /* Quicksand_Book_Oblique.otf in Resources */,
-				6A0536632BF8A83100B83FE1 /* Quicksand Medium 500.ttf in Resources */,
-				6AFA4E152BF8A43C00E5C116 /* Quicksand_Bold_Oblique.otf in Resources */,
-				6AFA4E182BF8A43C00E5C116 /* Quicksand_Light_Oblique.otf in Resources */,
-				6A0536612BF8A83100B83FE1 /* Quicksand Light 300.ttf in Resources */,
-				6AFA4E192BF8A43C00E5C116 /* Quicksand_Light.otf in Resources */,
-				6AFA4E172BF8A43C00E5C116 /* Quicksand_Dash.otf in Resources */,
+				99C467A52C0397990064D320 /* LilitaOne-Regular.ttf in Resources */,
+				99C467A72C0397990064D320 /* Quicksand_Bold.otf in Resources */,
+				99C467A62C0397990064D320 /* Groovy Dream.ttf in Resources */,
 				6A5B2C342BF76463000F9BCE /* Assets.xcassets in Resources */,
-				6A0536642BF8A83100B83FE1 /* Quicksand Regular 400.ttf in Resources */,
-				6AFA4E132BF8A43C00E5C116 /* Quicksand_Book.otf in Resources */,
-				6AFA4E162BF8A43C00E5C116 /* Quicksand_Bold.otf in Resources */,
-				6A0536662BF8C2B400B83FE1 /* LilitaOne-Regular.ttf in Resources */,
-				6AFA4E092BF8986600E5C116 /* Groovy Dream.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,11 +397,16 @@
 			files = (
 				6AABD9AD2BFB1BFE00DFA5B8 /* LocationManager.swift in Sources */,
 				6AABD9AF2BFB1C0900DFA5B8 /* WeatherData.swift in Sources */,
+				99C467AD2C03AA960064D320 /* RadialClock.swift in Sources */,
 				6A62F9EC2BFDEC3C00AF9FAB /* RadialLayout.swift in Sources */,
+				99C467B12C03AB230064D320 /* WeatherInformation.swift in Sources */,
 				6A5B2C322BF76463000F9BCE /* ContentView.swift in Sources */,
+				99C467B32C03ABA20064D320 /* MainScreenView_Copy.swift in Sources */,
 				6A5B2C302BF76463000F9BCE /* What_A_WeatherApp.swift in Sources */,
 				6A62F9E82BFDD18900AF9FAB /* MainScreenView_New.swift in Sources */,
+				99C467AF2C03AAEB0064D320 /* BackgroundColor.swift in Sources */,
 				6AFA4E062BF894CE00E5C116 /* MainScreen.swift in Sources */,
+				99C467A92C0398620064D320 /* WeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,13 +571,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"What A Weather Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = GTASVCTCTA;
+				DEVELOPMENT_TEAM = 5V847CY3JM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "What-A-Weather-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "What A Weather";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(EXECUTABLE_NAME)";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "What A Weather Watch App";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to device's location";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -590,14 +586,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Opal.What-A-Weather.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "BR.What-A-Weather.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Debug;
 		};
@@ -610,13 +606,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"What A Weather Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = GTASVCTCTA;
+				DEVELOPMENT_TEAM = 5V847CY3JM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "What-A-Weather-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "What A Weather";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(EXECUTABLE_NAME)";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "What A Weather Watch App";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to device's location";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -625,7 +621,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Opal.What-A-Weather.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "BR.What-A-Weather.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -633,7 +629,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Release;
 		};
@@ -643,7 +639,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GTASVCTCTA;
+				DEVELOPMENT_TEAM = 5V847CY3JM;
 				INFOPLIST_KEY_CFBundleDisplayName = "What A Weather";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Opal.What-A-Weather";
@@ -659,7 +655,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GTASVCTCTA;
+				DEVELOPMENT_TEAM = 5V847CY3JM;
 				INFOPLIST_KEY_CFBundleDisplayName = "What A Weather";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Opal.What-A-Weather";
