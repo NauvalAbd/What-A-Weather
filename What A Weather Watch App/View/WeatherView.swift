@@ -52,8 +52,8 @@ struct ExampleWeatherView: View {
     @State private var initialOffset = 0.0
     
 //    Coba ganti2 ini
-    @State private var temperatureValue = 40.0
-    @State private var conditionDescription : WeatherCondition = .rain
+    @State private var temperatureValue = 29.0
+    @State private var conditionDescription : WeatherCondition = .sunShowers
     
     @State private var locationString : String? = "Grogol"
     @State private var uvIndexValue = 5
